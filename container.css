@@ -1,0 +1,11 @@
+#container{
+    margin: 0 auto;    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(124, 100, 253, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 30px;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
