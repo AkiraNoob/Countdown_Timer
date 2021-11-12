@@ -1,5 +1,4 @@
 #count-down {
-  position: relative;
   flex: 1;
 }
 #share {
@@ -36,6 +35,9 @@
   align-items: flex-end;
   flex-wrap: wrap;
   gap: 1.5rem;
+}
+#timer .number{
+  font-size: 4vw;
 }
 #timer p {
   font-size: 2vw;

@@ -1,0 +1,59 @@
+@media screen and (max-width: 884px) {
+  #background {
+    padding: 20rem 5rem;
+  }
+  #content #title h1 {
+    font-size: 7vw;
+  }
+  #count-down #share #intro p {
+    font-size: 2.7vw;
+  }
+  #count-down .subtexts {
+    font-size: 2.5vw;
+  }
+  #timer .number{
+    font-size: 5.5vw;
+  }
+  #timer .subtext {
+      font-size: 2.7vw;
+  }
+}
+@media screen and (max-width: 428px){
+    #background{
+        padding: 5rem 3rem;
+    }
+    #container{
+        gap: 2rem;
+    }
+    #count-down{
+        flex-direction: column;
+        gap: 8rem;
+    }
+    #content #title h1{
+        font-size: 9vw;
+        text-align: center;
+    }
+    #count-down #share #intro p{
+        font-size: 5vw;
+        line-height: 3rem;
+        text-align: center;
+    }
+    #share button {
+        font-size: 4.5vw;
+    }
+    #share{
+        align-self: center;
+        width: 80%;
+        align-items: center;
+        gap: 0rem;
+    }
+    #timer{
+        width: 100%;
+    }
+    #timer .number{
+        font-size: 7.5vw;
+    }
+    #timer .subtext{
+        font-size: 3.7vw;
+    }
+}

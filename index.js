@@ -1,4 +1,6 @@
-const fixedHeight = document.getElementById('date').offsetHeight;
+let fixedHeight = document.getElementById('date').getBoundingClientRect().height;
+
+console.log(fixedHeight);
 
 let hours_index = document.getElementById('hours-text');
 let minutes_index = document.getElementById('minutes-text');
