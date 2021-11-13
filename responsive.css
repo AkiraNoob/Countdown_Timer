@@ -1,11 +1,11 @@
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px) {
   #content #title h1 {
     font-size: 4vw;
   }
-  #count-down #share #intro p{
+  #count-down #share #intro p {
     font-size: 1.5vw;
   }
-  #timer .number{
+  #timer .number {
     font-size: 3.5vw;
   }
 }
@@ -22,52 +22,91 @@
   #count-down .subtexts {
     font-size: 2.5vw;
   }
-  #timer .number{
+  #timer .number {
     font-size: 5.5vw;
   }
   #timer .subtext {
-      font-size: 2.7vw;
+    font-size: 2.7vw;
   }
 }
-@media screen and (max-width: 428px){
-    #background{
-        padding: 5rem 3rem;
-    }
-    #container{
-        gap: 5vw;
-    }
-    #count-down{
-        flex-direction: column;
-        gap: 8rem;
-    }
-    #content #title h1{
-        font-size: 9vw;
-        text-align: center;
-    }
-    #count-down{
-      gap: 10vw;
-    }
-    #count-down #share #intro p{
-        font-size: 5vw;
-        line-height: 3rem;
-        text-align: center;
-    }
-    #share button {
-        font-size: 4.5vw;
-    }
-    #share{
-        align-self: center;
-        width: 80%;
-        align-items: center;
-        gap: 2rem;
-    }
-    #timer{
-        width: 100%;
-    }
-    #timer .number{
-        font-size: 7.5vw;
-    }
-    #timer .subtext{
-        font-size: 3.7vw;
-    }
+@media screen and (max-width: 428px) {
+  #background {
+    padding: 5rem 3rem;
+  }
+  #container {
+    gap: 5vw;
+  }
+  #count-down {
+    flex-direction: column;
+    gap: 8rem;
+  }
+  #content #title h1 {
+    font-size: 9vw;
+    text-align: center;
+  }
+  #count-down {
+    gap: 10vw;
+  }
+  #count-down #share #intro p {
+    font-size: 5vw;
+    line-height: 3rem;
+    text-align: center;
+  }
+  #share button {
+    font-size: 4.5vw;
+  }
+  #share {
+    align-self: center;
+    width: 80%;
+    align-items: center;
+    gap: 2rem;
+  }
+  #timer {
+    width: 100%;
+  }
+  #timer .number {
+    font-size: 7.5vw;
+  }
+  #timer .subtext {
+    font-size: 3.7vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  #background{
+    padding: 3rem 3rem;
+  }
+  #count-down{
+    gap: 4vw;
+  }
+  #count-down #share {
+    gap: 2vw;
+  }
+  #count-down #share #intro {
+    width: 100%;
+  }
+  #count-down #share #intro p {
+    width: 100%;
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  #count-down #share button {
+    font-size: 3.5vw;
+    padding: 0;
+    height: 10vw;
+    width: 20vw;
+  }
+  #timer p{
+    margin-bottom: 0;
+  }
+  #timer .subtext{
+    margin-bottom: 4vw;
+  }
+
+  #date,
+  #hours,
+  #minutes,
+  #seconds {
+    justify-content: flex-end;
+    gap: 1rem;
+  }
 }
