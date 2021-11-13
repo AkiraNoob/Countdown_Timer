@@ -34,7 +34,7 @@
         padding: 5rem 3rem;
     }
     #container{
-        gap: 2rem;
+        gap: 5vw;
     }
     #count-down{
         flex-direction: column;
@@ -43,6 +43,9 @@
     #content #title h1{
         font-size: 9vw;
         text-align: center;
+    }
+    #count-down{
+      gap: 10vw;
     }
     #count-down #share #intro p{
         font-size: 5vw;
@@ -56,7 +59,7 @@
         align-self: center;
         width: 80%;
         align-items: center;
-        gap: 0rem;
+        gap: 2rem;
     }
     #timer{
         width: 100%;
